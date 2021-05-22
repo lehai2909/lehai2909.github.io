@@ -2,8 +2,6 @@
 
 Thêm chút hình cá nhân cho sinh động nào hí hí :see_no_evil: 
 
-<img src="./images/IMG_1403.JPG" alt="drawing" width="400"/>
-
 *Coollllllllll*
 
 You can use the [editor on GitHub](https://github.com/lehai2909/lehai2909.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
