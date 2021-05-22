@@ -10,12 +10,12 @@ Thêm chút hình cá nhân cho sinh động nào hí hí :see_no_evil:
 
 ### Những bài viết mình đã đăng tải (chỉ đếm trên đầu ngón tay thôi, nhưng vẫn đang tiếp tục đếm.........)
 
-- [Bài 1](lehai2909.github.io/blogs/blog-19-05.html)
-- [Bài 2](lehai2909.github.io/blogs/blog-20-05.html)
+- [Bài 1](https://lehai2909.github.io/blogs/blog-19-05.html)
+- [Bài 2](https://lehai2909.github.io/blogs/blog-20-05.html)
 
 
 ### hey
-[alo](lehai2909.github.io/blogs/blog-20-05.html)
+[alo](https://lehai2909.github.io\/blogs\/blog-20-05.html)
 
 
 
