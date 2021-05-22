@@ -1,4 +1,4 @@
-## Chào mừng đến với trang GitHub cá nhân của mình :)
+## Chào mừng đến với trang GitHub cá nhân của mình :v:
 
 
 ![GitHub Logo](./images/IMG_1403.JPG)
