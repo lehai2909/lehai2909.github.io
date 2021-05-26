@@ -1,5 +1,8 @@
 
+
 # Giới thiệu về Microservice - Docker - Kubernetes (Phần 1)
+
+
 
 Chào mừng các bạn đến với bài viết đầu tiên của mình. Trong bài này, mình sẽ trình bày một cách tổng quan và đơn giản về việc phát triển và triển khai phần mềm, và cách mà chúng đã được thay đổi trong những năm vừa qua nhờ vào sự ra đời của những công nghệ như [Docker](https://www.docker.com/) và [Kubernetes](https://kubernetes.io/)
 
