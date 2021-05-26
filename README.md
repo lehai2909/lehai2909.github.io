@@ -14,8 +14,9 @@ Thêm chút hình cá nhân cho sinh động nào :see_no_evil:
 
 ### Những dự án mình đã làm (chỉ đếm trên đầu ngón tay thôi, nhưng vẫn đang tiếp tục đếm.........)
 
-- [Bài 1](https://lehai2909.github.io/blogs/blog-19-05.html)
-- [Bài 2](https://lehai2909.github.io/blogs/blog-20-05.html)
+- [Web Scrapping app with BeautifulSoup and Streamlit (Python)](https://github.com/lehai2909/learn-web-scraping)
+- [Simple ETL - Pipeline](https://github.com/lehai2909/ETL-Pipeline)
+- [BigData Platform for pet lovers](https://github.com/lehai2909/Bigdata_platform) (In progress)
 
 
 
