@@ -6,11 +6,13 @@ Thêm chút hình cá nhân cho sinh động nào :see_no_evil:
 
 *Coollllllllll !!!!!!!!!!!!!!!!!!!!*
 
-
+Chào bạn, cảm ơn vì đã ghé thăm trang Github cá nhân của mình,
+Mình là Hải, hiện tại công việc chính của mình là Kỹ sư dữ liệu. Mình yêu thích được làm việc với dữ liệu lớn, các hệ thống phân tán và tự động hóa. Mình cực kì yêu thích đọc sách, đặc biết là thể loại trinh thám và khoa học. Mình cũng có đam mê về lĩnh vực Vật lý hạt nhân nữa, vì vậy trong tương lai, mình hi vọng có thể kết hợp được kiến thức trong lĩnh vực Khoa học dữ liệu và Hạt nhân, để có thể khai phá được những kiến thức mới, biết đâu sẽ đem về cho mình một giải Nobel nữa (just kidding :pilot:)
 
 ### Những blogs viết linh mình đã đăng tải
 
-- [Giới thiệu về Microservice - Kubernetes - Docker](https://lehai2909.github.io/blogs/microservice-kubernetes-docker.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker (phần 2)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p2.html)
 
 ### Những dự án mình đã làm (chỉ đếm trên đầu ngón tay thôi, nhưng vẫn đang tiếp tục đếm.........)
 
