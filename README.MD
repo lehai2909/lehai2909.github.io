@@ -1,4 +1,4 @@
-## Hey there, welcome to my Github Page :v:
+
 
 # About me
 
