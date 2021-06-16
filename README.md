@@ -9,6 +9,7 @@ I'm Hai Le. Currently I'm Data Engineer based in Ha Noi, Viet Nam. As a quick an
 
 - [Giới thiệu về Microservice - Kubernetes - Docker](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 2)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p2.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker (phần 3)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p3.html)
 
 # My projects
 
