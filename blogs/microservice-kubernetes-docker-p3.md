@@ -12,3 +12,20 @@ Docker có khả năng đóng gói rất mạnh mẽ: bạn có thể đóng gó
 
 ![docker-hub](../images/hub-docker.PNG)
 
+Docker Hub là một dạng **Registry**. Khái niệm này được định nghĩa trong tài liệu của Docker (https://docs.docker.com/registry/) như sau:
+
+`The Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images`
+
+Cho dễ hiểu, Registry là một ứng dụng cho phép việc lưu trữ và phân phối Docker image. Docker khuyến khích việc sử dụng Docker Hub giống như một ngân hàng để tìm kiếm những image cần thiết và lưu trữ chúng, vì nó hoàn toàn có sẵn và có thể sử dụng dễ dàng mà không yêu cầu các công việc cài đặt phức tạp.
+
+Bên cạnh Docker Hub, một vài dịch vụ Registry phổ biến khác có thể kể đến:
+
+- Google Container Registry
+- Amazon Elastic Container Registry
+
+Về cơ bản chúng là giống nhau, chỉ là được cung cấp bởi các nhà cung cấp dịch vụ điện toán đám mây khác nhau.
+
+Một vài khác niệm quan trọng khác bạn cũng cần hiểu và phân biệt rõ trong Docker:
+
+- **Image**: như đã đề cập (quá nhiều lần :weary:), đây là kết quả cuối cùng khi bạn đóng gói ứng dụng và những thư viện liên quan
+- **Container**: là kết quả của quá trình khởi chạy Docker image ở trên. Một container là một quá trình được chạy trên môi trường Docker, nhưng được tách biệt hoàn toàn với môi trường này cũng như các quá trình khác
