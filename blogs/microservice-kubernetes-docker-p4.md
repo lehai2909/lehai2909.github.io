@@ -11,3 +11,5 @@ Kubernetes là nền tảng mà nguồn mở dùng cho việc quản lý các d�
 - K8s là tên gọi khác của Kubernetes. Lí do là vì trong tên gọi Kubernetes, giữa 2 chữ 'K' và 's' ở đầu và cuối, ta sẽ đếm được 8 chữ cái khác
 - Kubernetes trong tiếng Hy Lạp có nghĩa là người lái tàu. Sẽ không ngạc nhiên nếu bạn biết logo của Kubernetes trông như thế này:
 <img src="../images/1200px-Kubernetes_logo_without_workmark.png" alt="drawing" width="400" height='400' />
+
+(đang bận tay ăn cơm, xin thông cảm :zany_face:)
