@@ -1,4 +1,4 @@
-# Giới thiệu về Microservice - Docker - Kubernetes (Phần 3)
+# Giới thiệu về Micro-service - Docker - Kubernetes (Phần 3)
 
 Docker là một trong những nền tảng đầu tiên được phát triển với mục đích tận dụng sức mạnh của công nghệ Container, khiến cho việc sử dụng container trở nên đơn giản trên các máy tính khác nhau. Tại sao lại là trên các máy tính khác nhau? Đơn giản vì, khi bạn đóng gói các container bằng Docker, Docker trên các máy tính khác nhau sẽ đều thấy một container chứa những nội dung như nhau. Hình dung cho đơn giản, giống như một thùng container chở hàng vậy, dù có được vận chuyển đi đâu, thì những hàng hóa bên trong vẫn là cố định (tất nhiên, trừ khi bạn vận chuyển kem nhưng quên bảo quản đúng cách :icecream:)
 
