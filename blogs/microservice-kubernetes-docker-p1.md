@@ -23,7 +23,7 @@ Bạn có thể dễ thấy ưu điểm của cách triển khai này như sau:
 
 Đương nhiên, micro-services không phải là không đi cùng với những hạn chế của nó. Những thách thức đối với phương án "chia để trị" này gồm có:
 - Việc triển khai các dịch vụ thành phần sẽ trở nên phức tạp hơn, đặc biệt khi số lượng thành phần tăng lên (mình nên đặt thành phần này ở server nào? Cách cấu hình các liên kết giữa các thành phần?)
-- Việc triển khai các microservice riêng biệt bên trong cùng một môi trường, như ta thấy ở từng server ở trên, thường sẽ dẫn đến các xung đột về thư viện của môi trường, vì mỗi micro-service được phát triển độc lập. Nó giống như việc bạn build 1 ứng dụng trong trên một máy linux cài đặt python3, nhưng phải triển khai nó một máy chủ chỉ được cài đặt python2 vậy. Vì thế, sẽ tốt hơn nếu mỗi micro-service được phát triển, đóng gói và triển khai trong cùng một môi trường
+- Việc triển khai các micro-service riêng biệt bên trong cùng một môi trường, như ta thấy ở từng server ở trên, thường sẽ dẫn đến các xung đột về thư viện của môi trường, vì mỗi micro-service được phát triển độc lập. Nó giống như việc bạn build 1 ứng dụng trong trên một máy linux cài đặt python3, nhưng phải triển khai nó một máy chủ chỉ được cài đặt python2 vậy. Vì thế, sẽ tốt hơn nếu mỗi micro-service được phát triển, đóng gói và triển khai trong cùng một môi trường
 
 Điều này đã dẫn đến sự ra đời của công nghệ **Container**
 
