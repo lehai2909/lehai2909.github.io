@@ -13,4 +13,6 @@ Kubernetes là nền tảng mà nguồn mở dùng cho việc quản lý các d�
 
 <img src="../images/1200px-Kubernetes_logo_without_workmark.png" alt="kubernetes-logo" width="400" height='400' />
 
-(đang bận tay ăn cơm, xin thông cảm :zany_face:)
+************************************************************************************************************
+
+## Kubernetes
