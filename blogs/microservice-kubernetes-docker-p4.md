@@ -33,7 +33,7 @@ Hãy tưởng tượng nếu bạn không phải chỉ quản lí 2 hay 3 contai
 
 Bạn có muốn tự tay quản lí đống container đó không? 
 
-(Image)[../images/withoutK.sketchpad.png]
+!(Image)[../images/withoutK.sketchpad.png]
 
 Đó chính là lúc Kubernetes xuất hiện như một chiếc phao cứu sinh, giúp việc quản lý ứng dụng trở nên đơn giản và bớt "đau đớn" hơn rất nhiều. Kubernetes cung cấp một nền tảng phân tán giúp quản lý và đảm bảo sự vận hành liên tục của ứng dụng, thông qua việc khởi tạo, mở rộng hay chuyển đổi các container của ứng dụng một cách tự động tùy thuộc vào lưu lượng truy cập (traffic) vào ứng dụng. Ngoài chức năng quản lý container, Kubernetes còn cung cấp các chức năng về bảo mật (password, OAuth token,...) hay quản lý lưu trữ (trên cloud hay bộ lưu trữ cục bộ,...)
 
