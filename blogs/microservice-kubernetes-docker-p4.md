@@ -2,7 +2,6 @@
 
 Chào các bạn. Đây sẽ là bài cuối cùng trong loạt bài giới thiệu về Docker và Kubernetes của mình. Hi vọng bạn sẽ thích nó và tiếp tục ủng hộ mình nhé :kissing:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DksVtJ1Ndho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Sau khi đã nắm cơ bản về những khái niệm như micro-service, Container hay Docker, mình tin là các bạn đã sẵn sàng để bước vào vùng đất cuối cùng mà chúng ta sẽ cùng nhau khám phá hôm nay: **Kubernetes**
 
