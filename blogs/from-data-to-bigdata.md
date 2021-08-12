@@ -9,5 +9,9 @@ Bên cạnh khả năng tính toán, một thứ khác luôn luôn song hành v�
 - Sự chuyển đổi từ việc sử dụng các spreadsheet (bảng tính) như Excel đến sự ra đời và bùng nổ của các hệ cơ sở dữ liệu quan hệ (RDBMS) như Oracle Database hay MySQL, theo sau bằng sự ra đời của các hệ cơ sở dữ liệu NoSQL
 - Sự xuất hiện của khái niệm Data Lake dần dần thay thế mô hình Data Warehouse truyền thống
 
-Nếu bạn cảm thấy xa lạ và hốt hoảng với những khái niệm này, đừng lo ::smile::
+Nếu bạn cảm thấy xa lạ và hốt hoảng với những khái niệm này, đừng lo và hãy kiên nhẫn :smile:. Trong loạt bài tới, mình sẽ cố gắng trình bày một cách tổng quan và dễ hiểu nhất về những vấn đề đã nêu trên đây
+
+### Hệ quản trị cơ sở dữ liệu quan hệ
+
+Hệ quản trị cơ sở dữ liệu quan hệ (Relational Database Management System - RDBMS) là hệ thống cho phép người dùng mô tả dữ liệu dưới dạng các bảng (table), trong đó mỗi bảng sẽ có một số trường dữ liệu (field)
 
