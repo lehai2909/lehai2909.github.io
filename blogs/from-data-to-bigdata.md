@@ -38,3 +38,5 @@ Và bây giờ, bạn quyết định chỉ dùng một bảng duy nhất như t
 | BK003      | Nguyễn Lan Anh    |10/01/1996 | Quảng Bình | **PFIEV** | **Lê Cung** |
 | BK004      | Ngô Phương Nhi   |17/08/1995 | Huế | ECE | Nguyễn Lê Hòa |
 | ...      | ...   |...| ... | ... | ... |
+
+Nếu để ý kỹ, bạn sẽ thấy rất nhiều trường thông tin bị lặp đi lặp lại (thông tin về khoa và trưởng khoa)
