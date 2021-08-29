@@ -46,7 +46,7 @@ Giải pháp cho vấn đề này? Một kỹ thuật được áp dụng rộng
 Để áp dụng kỹ thuật Normalization với bảng thông tin sinh viên ở trên, mình sẽ chia nhỏ nó ra thành 2 bảng: 1 bảng chứa thông tin riêng của sinh viên, bảng còn lại chứa thông tin về các khoa của trường. Cấu trúc của từng bảng sẽ như sau:
 
 
-**Bảng chứa thông tin riêng của sinh viên**
+**Bảng chứa thông tin riêng của sinh viên**:
 | ID      | Tên | Ngày/tháng/năm sinh | Quê quán | Mã số khoa|
 | ----------- | ----------- | ---------|----------|--------|
 | BK001      | Lê Hải       |21/07/1996 | Đà Nẵng | 003|
@@ -55,11 +55,15 @@ Giải pháp cho vấn đề này? Một kỹ thuật được áp dụng rộng
 | BK004      | Ngô Phương Nhi   |17/08/1995 | Huế | 005 | 
 | ...      | ...   |...| ... | ... |
 
-**Bảng chứa thông tin về các khoa của trường
+
+**Bảng chứa thông tin về các khoa của trường**:
 |Mã số Khoa| Tên khoa | Trưởng khoa|
+| ----------- | ----------- | ---------|
 |001|Điện| Lê Hùng|
 |002|Công nghệ thông tin| Phan Thanh Hưng|
 |003|PFIEV| Lê Cung|
 |004|Tự động hóa| Diệp Vấn|
 |005|ECE| Nguyễn Lê Hòa|
 |...|...|...|
+
+
