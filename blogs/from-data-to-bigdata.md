@@ -39,4 +39,27 @@ Và bây giờ, bạn quyết định chỉ dùng một bảng duy nhất như t
 | BK004      | Ngô Phương Nhi   |17/08/1995 | Huế | ECE | Nguyễn Lê Hòa |
 | ...      | ...   |...| ... | ... | ... |
 
-Nếu để ý kỹ, bạn sẽ thấy rất nhiều trường thông tin bị lặp đi lặp lại (thông tin về khoa và trưởng khoa)
+Nếu để ý kỹ, bạn sẽ thấy rất nhiều trường thông tin bị lặp đi lặp lại (thông tin về khoa và trưởng khoa). Điều này khiến cho việc lưu trữ thông tin chiếm nhiều bộ nhớ hơn với những dữ liêu dư thừa (redundancy), mà quan trọng hơn, khi có sự thay đổi về thông tin liên quan đến những dữ liệu dư thừa này, việc cập nhật dữ liệu (write data) sẽ tốn nhiều thời gian hơn, vì chúng ta sẽ phải sửa lại cùng một trường thông tin ở nhiều nơi khác nhau trong bảng
+
+Giải pháp cho vấn đề này? Một kỹ thuật được áp dụng rộng rãi được gọi là **Normalization** (Chuẩn hóa). Nguyên tắc của kỹ thuật này khá đơn giản và dễ hiểu: thay vì quản lý tập trung quá nhiều thông tin trong 1 bảng như vậy, chúng ta sẽ tách chúng ra thành các bảng nhỏ hơn, mỗi bảng sẽ lưu trữ thông tin về một đối tượng rõ ràng hơn. Việc "chia để trị" như vậy giúp cho việc quản lý thông tin trở nên dễ dàng hơn, đồng thời hạn chế các thông tin dư thừa, như các bạn sẽ thấy ngay sau đây.
+
+Để áp dụng kỹ thuật Normalization với bảng thông tin sinh viên ở trên, mình sẽ chia nhỏ nó ra thành 2 bảng: 1 bảng chứa thông tin riêng của sinh viên, bảng còn lại chứa thông tin về các khoa của trường. Cấu trúc của từng bảng sẽ như sau:
+
+
+**Bảng chứa thông tin riêng của sinh viên**
+| ID      | Tên | Ngày/tháng/năm sinh | Quê quán | Mã số khoa|
+| ----------- | ----------- | ---------|----------|--------|
+| BK001      | Lê Hải       |21/07/1996 | Đà Nẵng | 003|
+| BK002      | Nguyễn Hoàng    |22/06/1992 | Đà Nẵng | 003|
+| BK003      | Nguyễn Lan Anh    |10/01/1996 | Quảng Bình | 003 |
+| BK004      | Ngô Phương Nhi   |17/08/1995 | Huế | 005 | 
+| ...      | ...   |...| ... | ... |
+
+**Bảng chứa thông tin về các khoa của trường
+|Mã số Khoa| Tên khoa | Trưởng khoa|
+|001|Điện| Lê Hùng|
+|002|Công nghệ thông tin| Phan Thanh Hưng|
+|003|PFIEV| Lê Cung|
+|004|Tự động hóa| Diệp Vấn|
+|005|ECE| Nguyễn Lê Hòa|
+|...|...|...|
