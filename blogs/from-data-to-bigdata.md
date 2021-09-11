@@ -47,6 +47,7 @@ Giải pháp cho vấn đề này? Một kỹ thuật được áp dụng rộng
 
 
 **Bảng 1 chứa thông tin riêng của sinh viên**:
+
 | ID      | Tên | Ngày/tháng/năm sinh | Quê quán | Mã số khoa|
 | ----------- | ----------- | ---------|----------|--------|
 | BK001      | Lê Hải       |21/07/1996 | Đà Nẵng | 003|
@@ -57,6 +58,7 @@ Giải pháp cho vấn đề này? Một kỹ thuật được áp dụng rộng
 
 
 **Bảng 2 chứa thông tin về các khoa của trường**:
+
 |Mã số Khoa| Tên khoa | Trưởng khoa|
 | ----------- | ----------- | ---------|
 |001|Điện| Lê Hùng|
