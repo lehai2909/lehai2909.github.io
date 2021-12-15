@@ -25,8 +25,6 @@ I'm Hai Le. Currently I'm Data Engineer based in Ha Noi, Viet Nam. As a quick an
 
 I have worked for some company as various titles. This allowed me to travel a lot, and make my life more colorful :rainbow:
 
-In case you're interested in my past experience and skill, you can take a look at [my CV](https://drive.google.com/file/d/1IA-8lxUMo0NmZkeElWgpT5-Ve7rovy9T/view?usp=sharing)
-
 
 # How to keep in touch?
 :email: lehai2909@gmail.com
