@@ -12,6 +12,13 @@ I'm Hai Le. Currently I'm Data Engineer based in Ha Noi, Viet Nam. As a quick an
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 3)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p3.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 4)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p4.html)
 - [Cách chúng ta lưu trữ dữ liệu đã thay đổi như thế nào?](https://lehai2909.github.io/blogs/from-data-to-bigdata.html)
+- [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 1](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week1.html)
+- [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 2](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week2.html)
+- [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 3](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week3.html)
+- [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 4](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week4.html)
+- [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 5](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week5.html)
+- [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 6](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week6.html)
+- [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 7](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week7.html)
 
 
 # My projects
