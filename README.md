@@ -10,7 +10,7 @@ I'm Hai Le. Currently I'm Data Engineer based in Ha Noi, Viet Nam. As a quick an
 - [Giới thiệu về Microservice - Kubernetes - Docker](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 2)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p2.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 3)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p3.html)
-- [Giới thiệu về Microservice - Kubernetes - Docker (phần cuối)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p4.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker (phần 4)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p4.html)
 - [Cách chúng ta lưu trữ dữ liệu đã thay đổi như thế nào?](https://lehai2909.github.io/blogs/from-data-to-bigdata.html)
 
 
