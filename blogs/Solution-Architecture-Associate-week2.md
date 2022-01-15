@@ -1,4 +1,4 @@
-# Nhật ký tự học Solution Architecture Associate AWS - Week 1 (11/10/2021 - 17/10/2021)
+# Nhật ký tự học Solution Architecture Associate AWS - Week 2 (11/10/2021 - 17/10/2021)
 
 ![SAA-badge](../images/SAA/AWS-Certified_Solutions-Architect_Associate_badge.png)
 
@@ -34,6 +34,7 @@ Các loại EBS chính:
 ### Phát hiện:
 + Sử dụng các công cụ logging: AWS CloudTrail (lưu lại lịch sử các hoạt động tài khoản), CloudWatch, VPC Flow log (lưu lại các lưu lượng ra vào mạng VPC)
 + phát hiện các sự cố config các resource trên AWS: AWS Config
+
 ### Phát hiện các hành vi bất thường
 + AWS GuardDuty (giám sát và phát hiện các mối đe dọa)
 + AWS WAF: giám sác các yêu cầu HTTP bất thường đến CloudFront, API Gateway,...

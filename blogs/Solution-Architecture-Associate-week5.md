@@ -1,4 +1,4 @@
-# Nhật ký tự học Solution Architecture Associate AWS - Week 1 (1/11/2021 - 7/11/2021)
+# Nhật ký tự học Solution Architecture Associate AWS - Week 5 (1/11/2021 - 7/11/2021)
 
 ![SAA-badge](../images/SAA/AWS-Certified_Solutions-Architect_Associate_badge.png)
 

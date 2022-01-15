@@ -1,4 +1,4 @@
-# Nhật ký tự học Solution Architecture Associate AWS - Week 1 (8/11/2021 - 14/11/2021)
+# Nhật ký tự học Solution Architecture Associate AWS - Week 6 (8/11/2021 - 14/11/2021)
 
 ![SAA-badge](../images/SAA/AWS-Certified_Solutions-Architect_Associate_badge.png)
 
@@ -18,13 +18,15 @@ Route 53 sử dụng các routing policies nhằm phân phối lưu lượng đ�
 + latency routing
 + failover routing
 + geolocation routing
+
 ### AWS ElatiCache
-Elastic Cache là môt In-memory database được dùng để cache dữ liệu từ các cơ sở dữ liệu khác để cải thiện hiệu năng của ứng dụng
+Elastic Cache là môt In-memory database được dùng để cache dữ liệu từ các cơ sở dữ liệu khác để cải thiện hiệu năng của ứng dụng thông qua việc cải thiện hiệu năng việc truy vấn dữ liệu
 
 Terminology:
-+ node
++ node: đơn vị nhỏ nhất của ElastiCache. Là một instance chạy cache engine
 + shard: nhóm các node, bao gồm 1 primary (read/write) node và các replicate (read-only) node được sao chép không đồng bộ từ primary node 
 + cluster: nhóm các shard, data được phân vùng (partition) trên các shard
+
 ### AWS CloudFront
 
 CloudFront là dịch vụ cung cấp các các edge location trên khắp thế giới, cho phép đưa nội dung đến người dùng một cách nhanh nhất thông qua việc caching dữ liệu tại những địa điểm gần người sử dụng.
