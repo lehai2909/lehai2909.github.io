@@ -1,6 +1,6 @@
 # Giới thiệu về Micro-service - Docker - Kubernetes (Phần 4)
 
-Chào các bạn. Đây sẽ là bài cuối cùng trong loạt bài giới thiệu về Docker và Kubernetes của mình. Hi vọng bạn sẽ thích nó và tiếp tục ủng hộ mình nhé :kissing:
+Chào các bạn. Đây sẽ là bài cơ bản trong loạt bài giới thiệu về Docker và Kubernetes của mình. Hi vọng bạn sẽ thích nó và tiếp tục ủng hộ mình trong những phần nâng cao hơn tiếp theo nhé :kissing:
 
 
 Sau khi đã nắm cơ bản về những khái niệm như micro-service, Container hay Docker, mình tin là các bạn đã sẵn sàng để bước vào vùng đất cuối cùng mà chúng ta sẽ cùng nhau khám phá hôm nay: **Kubernetes**

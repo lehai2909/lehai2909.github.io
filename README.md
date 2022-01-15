@@ -10,9 +10,9 @@ I'm Hai Le. Currently I'm Data Engineer based in Ha Noi, Viet Nam. As a quick an
 - [Giới thiệu về Microservice - Kubernetes - Docker](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 2)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p2.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 3)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p3.html)
-- [Giới thiệu về Microservice - Kubernetes - Docker (phần cuối)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p4.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker (phần 4)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p4.html)
 - [Cách chúng ta lưu trữ dữ liệu đã thay đổi như thế nào?](https://lehai2909.github.io/blogs/from-data-to-bigdata.html)
-- [Mình làm gì những ngày giãn cách xã hội?](https://lehai2909.github.io/blogs/tiktok-28-07-2021.html)
+
 
 # My projects
 
@@ -24,9 +24,7 @@ I'm Hai Le. Currently I'm Data Engineer based in Ha Noi, Viet Nam. As a quick an
 # Experience and Skills
 
 I have worked for some company as various titles. This allowed me to travel a lot, and make my life more colorful :rainbow:
-
-In case you're interested in my past experience and skill, you can take a look at [my CV](https://drive.google.com/file/d/1IA-8lxUMo0NmZkeElWgpT5-Ve7rovy9T/view?usp=sharing)
-
+In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1FRVwZnEOxBx6Za3fYTSzXU8aoYKiyYus/view?usp=sharing)
 
 # How to keep in touch?
 :email: lehai2909@gmail.com
