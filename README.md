@@ -38,6 +38,6 @@ In case you want to know more about my skills and experience, you can take a loo
 # How to keep in touch?
 :email: lehai2909@gmail.com
 
-:link: https://www.linkedin.com/in/lengochai2609/
+:link: [https://www.linkedin.com/in/lengochai2609](https://www.linkedin.com/in/lengochai2609/)
 
 
