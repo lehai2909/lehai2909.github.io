@@ -8,7 +8,7 @@
 
 Auto Scaling là dịch vụ cho phép bảo đảm rằng dịch vụ của bạn có đủ tài nguyên tính toán (EC2 Instance) để xử lý các yêu cầu. Bạn thiết đặt các thông số như số instance tối thiểu, tối đa và cần thiết, và Auto Scaling sẽ duy trì Auto Scaling group có được số instance như mong muốn
 
-![Auto-scaling](../images/as-basic-diagram.png)
+![Auto-scaling](../images/Kubernetes/as-basic-diagram.png)
 
 Launch template là template sử dụng để Auto Scaling khởi tạo các instance cho group hoặc khi cần scale out. Nó bao gồm các thông tin như AMI id, instance type, key pair. Việc này giúp cho việc khởi tạo instance trở nên thuận tiện, tránh lặp đi lặp lại các bước thủ công
 
@@ -25,12 +25,12 @@ Dynamic scaling là dựa vào sự thay đổi trên lưu lượng các yêu c�
 
 Simple Queue Service (SQS) có thể được sử dụng để tạo nên cơ chế gắn kết lỏng lẻo (loosely coupled) giữa các thành phần trong hệ thống.
 
-![loose-coupling](..\images\loose-coupling.png)
+![loose-coupling](../images/Kubernetes/loose-coupling.png)
 
 SQS thường được dùng trong hệ thống tin nhắn phân tán để giúp tách rời các thành phần trong hệ thống. Hệ thống này thường gồm 3 phần: các thành phần trong hệ phân tán, hệ thống queue (SQS) và tin nhắn trong queue
 
 Vòng đời của một tin nhắn trong hệ thống:
-![message-lifecycle](..\images\sqs-message-lifecycle-diagram.png)
+![message-lifecycle](../images/Kubernetes/sqs-message-lifecycle-diagram.png)
 
 Bước 1: Thành phần 1 sẽ gởi tin nhắn đến queue. Tin nhắn sẽ được sao chép và phân phối dư ra đến các server
 Bước 2: Thành phần 2 sẽ yêu cầu tin nhắn từ queue. Trong thời gian thành phần này nhận và xử lý tin nhắn, tin nhắn này sẽ không phản hồi request từ các thành phần khác. Khoảng thời gian này gọi là **visibility timeout**

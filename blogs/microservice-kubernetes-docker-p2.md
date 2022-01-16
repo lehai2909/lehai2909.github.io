@@ -14,8 +14,8 @@ Nhiều chữ như vậy thì khó hiểu quá nhỉ. Bạn có thể xem hình 
 
 
 <p float="left">
-  <img src="../images/virtual-machine.png" width="400" />
-  <img src="../images/container.png" width="400" /> 
+  <img src="../images/Kubernetes/virtual-machine.png" width="400" />
+  <img src="../images/Kubernetes/container.png" width="400" /> 
 </p>
 
 *(Nguồn: https://www.docker.com/resources/what-container)*

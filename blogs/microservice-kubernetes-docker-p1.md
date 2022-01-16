@@ -9,12 +9,12 @@ Chào mừng các bạn đến với bài viết đầu tiên của mình. Trong
 Chúng ta sẽ bắt đầu bằng một khái niệm cơ bản: **Micro-service**
 Trước đây, quá trình phát triển phần mềm được tiến hành theo phương án nguyên khối (**Monolithic**), có thể mường tượng nó như thế này
 
-<img src="../images/monolithic-sketchpad-modified.png" alt="drawing" width="600"/>
+<img src="../images/Kubernetes/monolithic-sketchpad-modified.png" alt="drawing" width="600"/>
 
 Mỗi ứng dụng sẽ bao gồm nhiều thành phần con, tất cả tạo nên một thực thể ứng dụng duy nhất. Vì thế, việc thay đổi một thành phần con trong ứng dụng thường dẫn tới việc phải thay đổi lại cấu trúc của toàn bộ ứng dụng. Điều này sẽ rất khó với một ứng dụng có độ phức tạp lớn, với quy mô lên đến cả ngàn hay chục ngàn dòng lệnh. Một khó khăn hiển nhiên khác đó là với một khối chương trình duy nhất như vậy, bạn thường sẽ phải phụ thuộc vào một ngôn ngữ nhất định
  
 Để khắc phục điều này, người ta đã nghĩ ra cách phát triển các dịch vụ con (**micro-services**). Mỗi dịch vụ con chạy một chức năng riêng biệt, đượcp phát triển và triển khai độc lập với nhau, giao tiếp với nhau thông qua API để tạo nên một ứng dụng hoàn chỉnh. Về cơ bản, bạn có thể mường tượng nó như thế này:
-![microservice-diagram](../images/microservice-sketchpad.png)
+![microservice-diagram](../images/Kubernetes/microservice-sketchpad.png)
 
 Bạn có thể dễ thấy ưu điểm của cách triển khai này như sau:
 - Các thay đổi trong tính năng của từng dịch vụ thành phần sẽ không làm ảnh hưởng (hoặc ảnh hưởng rất ít) đến các thành phần khác
@@ -28,5 +28,5 @@ Bạn có thể dễ thấy ưu điểm của cách triển khai này như sau:
 Điều này đã dẫn đến sự ra đời của công nghệ **Container**
 
 Container được tạo ra với mục đích: đóng gói tất cả ứng dụng và môi trường phát triển của nó (thư viện, các file thực thi(bin),...) thành một khối duy nhất. Nó giống như một khối container to đùng mà bạn thường thấy ở bến cảng, bên trong đó chứa những hàng hóa cần thiết để xuất khẩu (có lẽ đây là nguồn gốc của cái tên container chăng, mình đoán vậy)
-![container](../images/container-sketchpad.png)
+![container](../images/Kubernetes/container-sketchpad.png)
 *(còn tiếp...)*

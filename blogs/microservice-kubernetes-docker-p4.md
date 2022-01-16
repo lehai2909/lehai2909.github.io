@@ -12,7 +12,7 @@ Kubernetes là nền tảng mà nguồn mở dùng cho việc quản lý các d�
 - K8s là tên gọi khác của Kubernetes. Lí do là vì trong tên gọi Kubernetes, giữa 2 chữ 'K' và 's' ở đầu và cuối, ta sẽ đếm được 8 chữ cái khác
 - Kubernetes trong tiếng Hy Lạp có nghĩa là người lái tàu. Sẽ không ngạc nhiên nếu bạn biết logo của Kubernetes trông như thế này:
 
-<img src="../images/1200px-Kubernetes_logo_without_workmark.png" alt="kubernetes-logo" width="400" height='400' />
+<img src="../images/Kubernetes/1200px-Kubernetes_logo_without_workmark.png" alt="kubernetes-logo" width="400" height='400' />
 
 ************************************************************************************************************
 
@@ -34,7 +34,7 @@ Hãy tưởng tượng nếu bạn không phải chỉ quản lí 2 hay 3 contai
 
 Bạn có muốn tự tay quản lí đống container đó không? 
 
-![Image](../images/withoutK.sketchpad.png)
+![Image](../images/Kubernetes/withoutK.sketchpad.png)
 
 Đó chính là lúc Kubernetes xuất hiện như một chiếc phao cứu sinh, giúp việc quản lý ứng dụng trở nên đơn giản và bớt "đau đớn" hơn rất nhiều. Kubernetes cung cấp một nền tảng phân tán giúp quản lý và đảm bảo sự vận hành liên tục của ứng dụng, thông qua việc khởi tạo, mở rộng hay chuyển đổi các container của ứng dụng một cách tự động tùy thuộc vào lưu lượng truy cập (traffic) vào ứng dụng. Ngoài chức năng quản lý container, Kubernetes còn cung cấp các chức năng về bảo mật (password, OAuth token,...) hay quản lý lưu trữ (trên cloud hay bộ lưu trữ cục bộ,...)
 
