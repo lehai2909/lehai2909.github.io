@@ -33,7 +33,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 # Experience and Skills
 
 I have worked for some company as various titles. This allowed me to travel a lot, and make my life more colorful :rainbow:
-In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1FRVwZnEOxBx6Za3fYTSzXU8aoYKiyYus/view?usp=sharing)
+In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1XIC6G1_vFGAZ7EOtN4ZOwq09OYIHoW-d/view?usp=sharing)
 
 # How to keep in touch?
 :email: lehai2909@gmail.com
