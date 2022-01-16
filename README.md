@@ -2,7 +2,7 @@
 
 # About me
 
-I'm Hai Le. Currently I'm Data Engineer based in Ha Noi, Viet Nam. As a quick and self-taught learner, my interests expand from Data Science to AI and Nuclear Physics 	:bomb:
+I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick and self-taught learner, my interests expand from Data Science to AI and Nuclear Physics 	:bomb:
 
 
 # The blogs I wrote (in Vietnamese)
