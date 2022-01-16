@@ -7,10 +7,11 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 
 # The blogs I wrote (in Vietnamese)
 
-- [Giới thiệu về Microservice - Kubernetes - Docker](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker (phần 1)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 2)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p2.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 3)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p3.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 4)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p4.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker (phần 5)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p5.html)
 - [Cách chúng ta lưu trữ dữ liệu đã thay đổi như thế nào?](https://lehai2909.github.io/blogs/from-data-to-bigdata.html)
 - [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 1](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week1.html)
 - [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 2](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week2.html)
@@ -26,6 +27,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 - [Web Scrapping app with BeautifulSoup and Streamlit (Python)](https://github.com/lehai2909/learn-web-scraping)
 - [Simple ETL - Pipeline](https://github.com/lehai2909/ETL-Pipeline)
 - [BigData Platform for pet lovers](https://github.com/lehai2909/Bigdata_platform) (In progress)
+- [Building a simple web app on AWS with Terraform](https://github.com/lehai2909/Simple-web-AWS-Terraform)
 
 
 # Experience and Skills
