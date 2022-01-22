@@ -27,7 +27,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 - [Web Scrapping app with BeautifulSoup and Streamlit (Python)](https://github.com/lehai2909/learn-web-scraping)
 - [Simple ETL - Pipeline](https://github.com/lehai2909/ETL-Pipeline)
 - [BigData Platform for pet lovers](https://github.com/lehai2909/Bigdata_platform) (In progress)
-- [Building a simple web app on AWS with Terraform](https://github.com/lehai2909/Simple-web-AWS-Terraform)
+- [Building a simple 3-tier web app on AWS with Terraform](https://github.com/lehai2909/Simple-web-AWS-Terraform)
 
 
 # Experience and Skills
