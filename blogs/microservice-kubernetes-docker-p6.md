@@ -21,7 +21,7 @@ Các thành phần chính trong một Node gồm có:
 - **kube-proxy**: quản lý các nguyên tắc truy cập mạng đến các Pod, từ bên trong hoặc bên ngoài cluster
 - **Container runtime**: là phần mềm hỗ trợ việc chạy các container - một vd tiêu biểu là Docker
 
-![node-overview](../images/Kubernetes/node-overview.svg)
+<img src="../images/Kubernetes/node-overview.svg" alt="drawing" width="600"/>
 
 *(Nguồn: kubernetes.io)*
 
@@ -78,6 +78,6 @@ kubectl get nodes
 
 Kết quả, kubectl trả về hiện tại mình chỉ có một node duy nhất (master) tên là **minikube**
 
-!(nodes)[../images/Kubernetes/command/kubectl-get-nodes.PNG]
+![nodes](../images/Kubernetes/command/kubectl-get-nodes.PNG)
 
 
