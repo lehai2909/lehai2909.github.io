@@ -28,7 +28,6 @@ Các thành phần chính trong một Node gồm có:
 
 - **kubelet**: là phần mềm giúp đảm bảo việc các container sẽ được chay trong các Pod
 - **kube-proxy**: quản lý các nguyên tắc truy cập mạng đến các Pod, từ bên trong hoặc bên ngoài cluster
-
 - **Container runtime**: là phần mềm hỗ trợ việc chạy các container - một vd tiêu biểu là Docker
 
 ## Các thành phần của Control Plane trong K8S cluster
