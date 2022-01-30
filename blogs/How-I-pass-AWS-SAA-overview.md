@@ -21,7 +21,7 @@ Vì công việc của mình sắp tới sẽ liên quan nhiều đến việc n
 
 Và đây là thành quả sau khoảng 2 tháng tự học và thức hành của mình:
 
-![certificate](../images/SAA/certificate.png)
+![certificate](../images/SAA/certificate.PNG)
 
 ## Bạn cần chuẩn bị gì trước kì thi?
 
