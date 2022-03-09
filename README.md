@@ -30,12 +30,13 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 - [Simple ETL - Pipeline](https://github.com/lehai2909/ETL-Pipeline)
 - [BigData Platform for pet lovers](https://github.com/lehai2909/Bigdata_platform) (In progress)
 - [Building a simple 3-tier web app on AWS with Terraform](https://github.com/lehai2909/Simple-web-AWS-Terraform)
+- [Simple Back-end Web app with NodeJS, Jenkins and MongoDB](https://github.com/lehai2909/simple-backend-NodeJS--with-Jenkins)
 
 
 # Experience and Skills
 
 I have worked for some company as various titles. This allowed me to travel a lot, and make my life more colorful :rainbow:
-In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1XIC6G1_vFGAZ7EOtN4ZOwq09OYIHoW-d/view?usp=sharing)
+In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1PeHCho0prRb2Qixy8cCI8VJqniZVltRs/view?usp=sharing)
 
 # How to keep in touch?
 :email: lehai2909@gmail.com
