@@ -204,6 +204,7 @@ Mô tả tất cả các tài nguyên khả dụng trên Node: CPU, bộ nhớ, 
 ### Thông tin chung (Info)
 
 Mô tả những thông tin chung về Node như là phiên bản kernel, OS Image, hệ điều hành mà Node chạy trên, môi trường Container (docker),....
+Ngoài ra, bạn cũng có thể tìm thấy log ghi lại quá trình Node được khởi tạo trong cluster.
 
 
 
