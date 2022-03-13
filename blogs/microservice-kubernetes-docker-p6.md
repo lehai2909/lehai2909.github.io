@@ -78,6 +78,6 @@ kubectl get nodes
 
 Kết quả, kubectl trả về hiện tại mình chỉ có một node duy nhất (master) tên là **minikube**
 
-!(nodes)[../images/Kubernetes/command/kubectl-get-nodes.PNG]
+![nodes](../images/Kubernetes/command/kubectl-get-nodes.PNG)
 
 
