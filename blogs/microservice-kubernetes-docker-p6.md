@@ -53,7 +53,7 @@ Kubernetes sẽ kiểm tra để xem liệu một kubelet nào đó đã đăng 
 
 Trạng thái của Node sẽ bao gồm những thông tin sau:
 - Địa chỉ IP 
-- Điều kiện
+- Tình trạng Node (condition)
 - Tài nguyên và khả năng phân bổ
 - Thông tin chung 
 
@@ -62,13 +62,6 @@ Bạn có thể dùng trình dòng lệnh **kubectl** để kiểm tra các thô
 ```
 kubectl describe node <insert-node-name-here>
 ```
-
-### Địa chỉ IP
-
-Địa chỉ của Node bao gồm các trường cơ bản như sau:
-- Hostname: là tên được khai báo bởi node
-- ExternalIP: địa chỉ IP của node mà có thể được định tuyến từ bên ngoài của cluster
-- InternalIP: địa chỉ IP của node mà chỉ có thể được định tuyến bên trong cluster
 
 Ví dụ như ở đây trên máy tính Windows của mình, mình sử dụng lệnh sau để kiểm tra các node hiện tại trong cluster:
 
@@ -79,5 +72,31 @@ kubectl get nodes
 Kết quả, kubectl trả về hiện tại mình chỉ có một node duy nhất (master) tên là **minikube**
 
 ![nodes](../images/Kubernetes/command/kubectl-get-nodes.PNG)
+
+Để xem cụ thể tất cả thông tin về trạng thái của node này, mình sử dụng câu lệnh sau:
+
+```
+kubectl describe nodes minikube
+```
+
+` kubectl get `
+
+
+### Địa chỉ IP
+
+Địa chỉ của Node bao gồm các trường cơ bản như sau:
+- Hostname: là tên được khai báo bởi node
+- ExternalIP: địa chỉ IP của node mà có thể được định tuyến từ bên ngoài của cluster
+- InternalIP: địa chỉ IP của node mà chỉ có thể được định tuyến bên trong cluster
+
+### Tình trạng Node (Conditions)
+
+Mô tả trạng thái của tất cả các Node đang chạy trên clusterl. Một vài tình trạng ví dụ:
+- Ready: nếu có giá trị True, nghĩa là Node này vẫn chạy bình thường, và sẵn sàng để khởi chạy các pod trong nó
+- MemoryPressure: nếu nhận giá trị True, nghĩa là Node hiện tại đang trong tình trạng thiếu bộ nhớ
+- ....
+
+
+
 
 
