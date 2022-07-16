@@ -26,6 +26,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 
 # My projects
 
+- [CD pipeline with Gitlab CI to deploy app to GKE](https://gitlab.com/leensea96/ticket-management-app)
 - [Web Scrapping app with BeautifulSoup and Streamlit (Python)](https://github.com/lehai2909/learn-web-scraping)
 - [Simple ETL - Pipeline](https://github.com/lehai2909/ETL-Pipeline)
 - [BigData Platform for pet lovers](https://github.com/lehai2909/Bigdata_platform) (In progress)
@@ -36,7 +37,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 # Experience and Skills
 
 I have worked for some company as various titles. This allowed me to travel a lot, and make my life more colorful :rainbow:
-In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1PeHCho0prRb2Qixy8cCI8VJqniZVltRs/view?usp=sharing)
+In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1pMYELyJ7CwA4M8Z9aOLCylBZ1_S5io1Q/view?usp=sharing)
 
 # How to keep in touch?
 :email: lehai2909@gmail.com
