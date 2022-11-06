@@ -1,4 +1,5 @@
 # Giới thiệu về Micro-service - Docker - Kubernetes (Phần 5)
+# Kiến trúc tổng quan của Kubernetes
 
 Bắt đầu từ phần này, mình sẽ trình bày những phần đi sâu hơn về kiến trúc của Kubernetes, các thành phần trong một cụm Kubernetes và chức năng của chúng. Đương nhiên, để hiểu tường tận về cấu trúc bên dưới của một nền tảng phức tạp như K8S là một điều rất khó. Vậy nên, mình chỉ xin chia sẻ những hiểu biết của mình ở mức high-level, và hi vọng những kiến thức này sẽ giúp ích cho những người mới làm quen với K8S như mình hồi đó
 
