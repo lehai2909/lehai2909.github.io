@@ -2,7 +2,6 @@
 # Giới thiệu về Micro-service - Docker - Kubernetes (Phần 6)
 # Node trong Kubernetes
 
-
 *Lưu ý về các phần mềm cơ bản cần thiết để follow phần này*
 
 Để tìm hiểu về Kiến trúc của K8S, bạn sẽ cần cài đặt một số phần mềm cơ bản sau:
@@ -207,7 +206,5 @@ Mô tả tất cả các tài nguyên khả dụng trên Node: CPU, bộ nhớ, 
 
 Mô tả những thông tin chung về Node như là phiên bản kernel, OS Image, hệ điều hành mà Node chạy trên, môi trường Container (docker),....
 Ngoài ra, bạn cũng có thể tìm thấy log ghi lại quá trình Node được khởi tạo trong cluster.
-
-
 
 
