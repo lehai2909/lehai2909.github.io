@@ -10,3 +10,15 @@ Workload, nói theo cách thường dân, là những ứng dụng được đó
 Trước khi đào sâu vào những loại workload mà chúng ta có thể chạy trên K8S, hãy cùng nhau tìm hiểu về Pod trước!
 
 ## Pod
+
+Pod, như đã đề cập lần thứ N, là đơn vị triển khai nhỏ nhất trên một cụm Kubernetes. Một Pod thường sẽ chứa một hoặc nhiều container chạy trong nó, nhưng một mô hình phổ biến là một pod thường chỉ chạy 1 container. Bên trong Pod, ta cũng có thể cài các volumes để lưu trữ giữ liệu cho các container ứng dụng.
+
+Làm sao các container trong Pod giao tiếp với nhau, cũng như giao tiếp với các container ở các pod khác? Đề làm được điều đó, Khi các pod được khởi tạo, chúng sẽ được tạo cho một network namespace riêng ở trên node, với cổng vào là một Network interface có địa chỉ IP được lấy từ dải địa chỉ phân bổ cho pod của cluster (xem hình dưới). Ví dụ, pod bên trái trong hình dưới có địa chỉ IP: 10.255.255.101.
+
+![microservice-diagram](../images/Kubernetes/networking-overview_single-node.png)
+
+*(Tham khảo: https://cloud.google.com/kubernetes-engine/docs/concepts/network-overview)*
+
+Điều thú vị là ở bên trong pod, tất cả các container đều kết nối đến network interface của pod. Chúng nhìn pod như một máy tính vật lý bình thường với một network interface, và các container này có thể nói chuyện với nhau qua cổng localhost.
+
+
