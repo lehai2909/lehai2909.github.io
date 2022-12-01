@@ -28,7 +28,7 @@ Mình sẽ giải thích kĩ hơn về khái niệm Pod trong những phần ti�
 
 Các thành phần chính trong một Node gồm có:
 
-- **kubelet**: là phần mềm giúp đảm bảo việc các container sẽ được chay trong các Pod
+- **kubelet**: là phần mềm giúp đảm bảo việc các container sẽ được chay trong các Pod. kubelet cũng có trách nhiệm giao tiếp với api-server để gởi các thông tin trạng thái các pod trên node về control plane
 - **kube-proxy**: quản lý các nguyên tắc truy cập mạng đến các Pod, từ bên trong hoặc bên ngoài cluster
 - **Container runtime**: là phần mềm hỗ trợ việc chạy các container - một vd tiêu biểu là Docker
 
