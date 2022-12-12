@@ -19,6 +19,7 @@ Làm sao các container trong Pod giao tiếp với nhau, cũng như giao tiếp
 
 *(Tham khảo: https://cloud.google.com/kubernetes-engine/docs/concepts/network-overview)*
 
-Điều thú vị là ở bên trong pod, tất cả các container đều kết nối đến network interface của pod. Chúng nhìn pod như một máy tính vật lý bình thường với một network interface, và các container này có thể nói chuyện với nhau qua cổng localhost.
+Điều thú vị là ở bên trong pod, tất cả các container đều kết nối đến virtual network interface của pod (ví dụ ở trên là veth1234). Chúng nhìn pod như một máy tính vật lý bình thường với một network interface, và các container này có thể nói chuyện với nhau qua cổng localhost. 
+
 
 
