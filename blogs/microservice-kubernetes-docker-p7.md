@@ -11,7 +11,7 @@ Trước khi đào sâu vào những loại workload mà chúng ta có thể ch�
 
 ## Pod
 
-Pod, như đã đề cập lần thứ N, là đơn vị triển khai nhỏ nhất trên một cụm Kubernetes. Một Pod thường sẽ chứa một hoặc nhiều container chạy trong nó, nhưng một mô hình phổ biến là một pod thường chỉ chạy 1 container. Bên trong Pod, ta cũng có thể cài các volumes để lưu trữ giữ liệu cho các container ứng dụng.
+Pod, như đã đề cập lần thứ N, là đơn vị triển khai nhỏ nhất trên một cụm Kubernetes. Một Pod thường sẽ chứa một hoặc nhiều container chạy trong nó (tham khảo [link](https://kubernetes.io/docs/concepts/workloads/pods/#workload-resources-for-managing-pods)), nhưng một mô hình phổ biến là một pod thường chỉ chạy 1 container. Bên trong Pod, ta cũng có thể cài các volumes để lưu trữ và chia sẻ dữ liệu cho các container.
 
 ## Pod Networking model
 
@@ -46,16 +46,57 @@ Các bước thực hiện như sau:
 
 Kết quả trả về thông báo pod đã được khởi tạo thành công:
 
----
+
 <img width="635" alt="image" src="https://user-images.githubusercontent.com/49013652/206958112-595ce11c-5ddf-4676-8938-3405f4c014ad.png">
 
 ---
 
 + Bây giờ chạy lệnh: ``` kubectl get pod nginx -o wide```, chúng ta sẽ nhận được một số thông tin về pod, như địa chỉ ip và node mà trên đó pod này được khởi tạo:
 
----
+
 <img width="1092" alt="image" src="https://user-images.githubusercontent.com/49013652/206959892-9e83d2d2-6c4d-4421-89b2-969d42c115cb.png">
 
 ---
 
+Giờ thì chúng ta đã tạo đuợc thành công một pod, nhưng làm sao để nhìn vào bên trong của pod và container của nó? kubectl cung cấp một câu lệnh hữu ích giúp chúng ta tương tác với container, như tạo ra một shell chạy trong container để chạy các lệnh, giống như khi ta đang có một terminal của linux vậy. Đó là lệnh ```kubectl exec```.
 
+Quay lại với terminal đang làm việc lúc nãy, bạn hãy chạy dòng lệnh sau:
+```kubectl exec -it nginx -- bash```
+
+Một cách thần kỳ, một shell sẽ được chạy, cho phép bạn thao tác các câu lệnh bên trong container, sau đây là một ví dụ khi bạn chạy lệnh ```pwd``` trong shell vừa được mở:
+
+<img width="658" alt="image" src="https://user-images.githubusercontent.com/49013652/210166022-d4905a96-972c-4c4b-a160-02539502f20c.png">
+
+---
+Để tham khảo về ý nghĩa các thành phần của câu lệnh, bạn có thể xem thêm tại (đây)[https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#exec]
+
+
+## Chia sẻ tài nguyên lưu trữ trong pod
+Một pod có thể chỉ định một volume chung để lưu trữ dữ liệu. Trong trường hợp khi ta chạy nhiều container trong một pod, các container đều có quyền truy cập đến volume này, bằng cách mount volume này vào filesystem của container. Sau đây là một ví dụ về việc một pod sử dụng một volume loại EmptyDir để phục vụ việc chia sẻ dữ liệu giữa 2 container bên trong pod, được khai báo dưới dạng file .yaml:
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: two-containers
+spec:
+  volumes:
+  - name: shared-data
+    emptyDir: {}
+  containers:
+  - name: nginx-container
+    image: nginx
+    volumeMounts:
+    - name: **shared-data**
+      mountPath: /usr/share/nginx/html
+  - name: debian-container
+    image: debian
+    volumeMounts:
+    - name: shared-data
+      mountPath: /pod-data
+    command: ["/bin/sh"]
+    args: ["-c", "echo Hello from the debian container > /pod-data/index.html"]
+```
+Bạn chưa cần biết về các loại volume trong K8S (mình sẽ trình bày về nó trong phần về Storage trong K8s), bạn chỉ cần hiểu sơ là ở đây, chúng ta đang có 2 container: ```nginx-container``` và ```debian-container```. 2 container này mount một volume có tên ```shared-data``` tại các thư mục với đường dẫn tương ứng là ```/usr/share/nginx/html``` và ```/pod-data``` trong từng filesystem của container. Vì đây là một shared volume, nên khi bạn tạo hoặc thay đổi nội dung file trong một thư mục, sự thay đổi đó cũng sẽ xuất hiện ở thư mục còn lại.
+
+## Deployment
