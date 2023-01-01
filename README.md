@@ -13,6 +13,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 4)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p4.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 5)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p5.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 6)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p6.html)
+- [Giới thiệu về Microservice - Kubernetes - Docker (phần 7)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p7.html)
 - [Cách chúng ta lưu trữ dữ liệu đã thay đổi như thế nào?](https://lehai2909.github.io/blogs/from-data-to-bigdata.html)
 - [Mình đã tự học để thi lấy chứng chỉ AWS Solution Architect Associate (SAA-C02) như thế nào? (tóm tắt)](https://lehai2909.github.io/blogs/How-I-pass-AWS-SAA-overview.html)
 - [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 1](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week1.html)
