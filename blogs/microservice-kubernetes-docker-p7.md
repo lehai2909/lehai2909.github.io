@@ -100,4 +100,50 @@ spec:
 Bạn chưa cần biết về các loại volume trong K8S (mình sẽ trình bày về nó trong phần về Storage trong K8s), bạn chỉ cần hiểu sơ là ở đây, chúng ta đang có 2 container: ```nginx-container``` và ```debian-container```. 2 container này mount một volume có tên ```shared-data``` tại các thư mục với đường dẫn tương ứng là ```/usr/share/nginx/html``` và ```/pod-data``` trong từng filesystem của container. Vì đây là một shared volume, nên khi bạn tạo hoặc thay đổi nội dung file trong một thư mục, sự thay đổi đó cũng sẽ xuất hiện ở thư mục còn lại.
 
 ## Deployment
+
 Việc sử dụng một pod để chạy ứng dụng, đem đến một nguy cơ là khi pod này gặp vấn đề và ngừng hoạt động (điều rất dễ xảy ra khi traffic của ứng dụng tăng cao dẫn đến cạn kiệt tài nguyên cpu/ram,..), ứng dụng cũng sẽ ngừng chạy, và người dùng sẽ bị ảnh hưởng. Một điều bất lợi nữa là pod không có cơ chế re-schedule sau khi ngừng hoạt động, vậy nên có thể làm gián đoạn ứng dụng trong một thời gian nếu pod thay thế không được tạo lại (bằng tay)
+
+Thứ mà chúng ta muốn ở đây, là một công cụ giám sát giúp chúng ta duy trì được một số lượng pod giống nhau không thay đổi, để khi một pod gặp vấn đề, các pod còn lại sẽ tiếp tục phục vụ người dùng, và pod bị lỗi sẽ được tự động thay thế bằng pod mới.Đó chính là chức năng của Deployment trong K8s
+
+### Sử dụng deployment
+
+Để tạo một deployment, cách đơn giản nhất là bạn khai báo trạng thái mong muốn của deployment này thông qua việc khởi tạo một file .yaml chứa các thông tin về deployment bạn muốn tạo. Mình có lấy một file .yaml mô tả một deployment có tên nginx-deployment từ trang chủ kubernetes như sau:
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+```
+
+Một số thông tin quan trọng có thể kể đến:
+- tên của deployment (name)
+- số lượng pod (spec.replicas) và deployment này quản lý
+- template để khởi tạo các pod (spec.template)
+
+
+Lưu lại file này với tên deployment.Để khởi tạo deployment này, chúng ta sử dụng tool kubeclt:
+```kubectl create -f deployment.yaml```
+Nếu không có lỗi gì báo về, nghĩa là deployment đã được khởi tạo thành công
+
+<img width="919" alt="image" src="https://user-images.githubusercontent.com/49013652/222939559-def9c868-22c4-4c0e-9d4e-f5c966f243dc.png">
+
+---
+
