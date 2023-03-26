@@ -14,5 +14,10 @@ Azure cũng có một hệ thống quản lý truy cập dựa trên cơ chê RB
 
 ![image](https://user-images.githubusercontent.com/49013652/227781999-82c4cc6d-e47c-4530-ab1e-d39d424fb2b4.png)
 
-Ví dụ:
-Bạn gán role Reader cho user lehai, ở scope là một AKS cluster 
+Ví dụ dưới đây, bạn gắn cho Alex một role tên là [Azure Kubernetes Service Contributor role](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#azure-kubernetes-service-contributor-role), một built-in role trong Azure. Bạn gắn role này lên Alex ở scope là một cluster cụ thể (một resource), vậy nên Alex sẽ có quyền truy cập để quản lý cluster này, nhưng không phải các cluster khác trong một resource group.
+
+![Azure-RBAC](https://user-images.githubusercontent.com/49013652/227784387-8dce8988-15e3-43d9-8230-be05cb2f10b7.png)
+
+Việc sử dụng kết hợp Azure RBAC và Kubernetes RBAC sẽ cho phép quản lý truy cập một cách toàn diện hơn. Một mặt, bạn sử dụng Azure RBAC để cấp quyền truy cập cho một đối tượng (user/group) đến AKS resource, thông qua việc gán role cho đối tượng này. Mặt khác, bạn sử dùng Kubernetes RBAC để quản lý quyền truy cập đến các tài nguyên bên trong cluster (pod, secret,...). Điều này khá giống với 
+với việc sửvie
+Việc sử dụng kết hợp Azure RBAC và Kubernetes RBAC sẽ cho phép quản lý truy cập một cách toàn diện hơn. Một mặt, bạn sử dụng Azure RBAC để cấp quyền truy cập cho một đối tượng (user/group) đến AKS resource, thông qua việc gán role cho đối tượng này. Mặt khác, bạn sử dùng Kubernetes RBAC để quản lý quyền truy cập đến các tài nguyên bên trong cluster (pod, secret,...). Điều này kh
