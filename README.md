@@ -25,12 +25,9 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 - [Nhật ký tự học chứng chỉ AWS Solution Architect Associate (SAA-C02) - Week 7](https://lehai2909.github.io/blogs/Solution-Architecture-Associate-week7.html)
 
 
-# My projects
+# My Personal projects
 
-- [CD pipeline with Gitlab CI to deploy app to GKE](https://gitlab.com/leensea96/ticket-management-app)
-- [Web Scrapping app with BeautifulSoup and Streamlit (Python)](https://github.com/lehai2909/learn-web-scraping)
-- [Simple ETL - Pipeline](https://github.com/lehai2909/ETL-Pipeline)
-- [BigData Platform for pet lovers](https://github.com/lehai2909/Bigdata_platform) (In progress)
+- [CD pipeline with Gitlab CI/Jenkins to deploy web app to cloud](https://gitlab.com/leensea96/devops-cicd-aws)
 - [Building a simple 3-tier web app on AWS with Terraform](https://github.com/lehai2909/Simple-web-AWS-Terraform)
 - [Simple Back-end Web app with NodeJS, Jenkins and MongoDB](https://github.com/lehai2909/simple-backend-NodeJS--with-Jenkins)
 
