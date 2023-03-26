@@ -18,6 +18,10 @@ Ví dụ dưới đây, bạn gắn cho Alex một role tên là [Azure Kubernet
 
 ![Azure-RBAC](https://user-images.githubusercontent.com/49013652/227784387-8dce8988-15e3-43d9-8230-be05cb2f10b7.png)
 
-Việc sử dụng kết hợp Azure RBAC và Kubernetes RBAC sẽ cho phép quản lý truy cập một cách toàn diện hơn. Một mặt, bạn sử dụng Azure RBAC để cấp quyền truy cập cho một đối tượng (user/group) đến AKS resource, thông qua việc gán role cho đối tượng này. Mặt khác, bạn sử dùng Kubernetes RBAC để quản lý quyền truy cập đến các tài nguyên bên trong cluster (pod, secret,...). Điều này khá giống với 
-với việc sửvie
-Việc sử dụng kết hợp Azure RBAC và Kubernetes RBAC sẽ cho phép quản lý truy cập một cách toàn diện hơn. Một mặt, bạn sử dụng Azure RBAC để cấp quyền truy cập cho một đối tượng (user/group) đến AKS resource, thông qua việc gán role cho đối tượng này. Mặt khác, bạn sử dùng Kubernetes RBAC để quản lý quyền truy cập đến các tài nguyên bên trong cluster (pod, secret,...). Điều này kh
+Việc sử dụng kết hợp Azure RBAC và Kubernetes RBAC sẽ cho phép quản lý truy cập một cách toàn diện hơn. Một mặt, bạn sử dụng Azure RBAC để cấp quyền truy cập cho một đối tượng (user/group) đến AKS resource, thông qua việc gán role cho đối tượng này. Mặt khác, bạn sử dùng Kubernetes RBAC để quản lý quyền truy cập đến các tài nguyên bên trong cluster (pod, secret,...). Điều này khá giống với việc sử dụng kết hợp IAM và Kubernetes RBAC trong Google Cloud.
+
+Chúng ta nói khá nhiều về việc quản lý truy cập đến các tài nguyên trên Azure hay K8S cho các đối tượng như User hoặc Group. Tuy nhiên, các đối tượng này được quản lý như thế nào trong Azure? Làm sao chúng ta có thể dễ dàng tạo một user trong Azure, gắn quyền cho đối tượng này, và liên kết đối tượng này với AKS?
+
+AKS cho phép bạn tích hợp Azure Active Directory (Azure AD), giúp quản lý tập trung các user account/group, credentials, và quyền truy cập đến các tài nguyên trong Kubernetes. Workflow như sau:
+![image](https://user-images.githubusercontent.com/49013652/227786252-3fed8d31-a0e0-48c6-a0ed-ae77f72c3007.png)
+
