@@ -25,3 +25,4 @@ Chúng ta nói khá nhiều về việc quản lý truy cập đến các tài n
 AKS cho phép bạn tích hợp Azure Active Directory (Azure AD), giúp quản lý tập trung các user account/group, credentials, và quyền truy cập đến các tài nguyên trong Kubernetes. Workflow như sau:
 ![image](https://user-images.githubusercontent.com/49013652/227786252-3fed8d31-a0e0-48c6-a0ed-ae77f72c3007.png)
 
+*(to be continued)*
