@@ -27,15 +27,14 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 
 # My Personal projects
 
-- [CD pipeline with Gitlab CI/Jenkins to deploy web app to cloud](https://gitlab.com/leensea96/devops-cicd-aws)
-- [Building a simple 3-tier web app on AWS with Terraform](https://github.com/lehai2909/Simple-web-AWS-Terraform)
-- [Simple Back-end Web app with NodeJS, Jenkins and MongoDB](https://github.com/lehai2909/simple-backend-NodeJS--with-Jenkins)
+- [Self-serving reader Web application build on AWS](https://gitlab.com/leensea96/devops-cicd-aws)
+- [Simple Web App](https://github.com/lehai2909/Simple-web-AWS-Terraform)
 
 
 # Experience and Skills
 
 I have worked for some company as various titles. This allowed me to travel a lot, and make my life more colorful :rainbow:
-In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/1pMYELyJ7CwA4M8Z9aOLCylBZ1_S5io1Q/view?usp=sharing)
+In case you want to know more about my skills and experience, you can take a look at [my CV](https://drive.google.com/file/d/19aVru6iW7pOGBYUX86613llXlgXkxmED/view?usp=sharing)
 
 # How to keep in touch?
 :email: lehai2909@gmail.com
