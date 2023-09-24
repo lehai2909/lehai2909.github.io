@@ -16,4 +16,10 @@ Azure Key Vault là Secret Store chính của Azure, giúp giải quyết 3 vấ
 Biểu đồ bên dưới mô tả cách thức hoạt động của Secret Store CSI driver nói chung (Nguồn: [https://secrets-store-csi-driver.sigs.k8s.io/concepts.html](https://secrets-store-csi-driver.sigs.k8s.io/concepts.html)):
 ![image](https://github.com/lehai2909/lehai2909.github.io/assets/49013652/f8580487-cd85-41a5-8916-9e98b08a74d8)
 
-Secret Store CSI driver chạy dưới dạng daemonset trên mỗi node của K8S cluster. 
+Secret Store CSI driver chạy dưới dạng daemonset trên mỗi node của K8S cluster. Các pod driver sẽ làm việc với kubelet để thiết lập việc kết nối đến Secret Store provider, cũng như mount/unmount data.
+
+## Các bước để sử dụng Azure Key Vault Provider for Secrets Store CSI driver trong AKS
+### 1. Cài đặt Azure Key Vault Provider for Secrets Store CSI Driver lên cluster:
+Có 2 option có thể sử dụng ở đây:
+Option 1: enable `azure-keyvault-secrets-provider` add-on bằng az cli:
+`az aks enable-addons --addons azure-keyvault-secrets-provider --name <cluster-name> --resource-group <resource-group>`
