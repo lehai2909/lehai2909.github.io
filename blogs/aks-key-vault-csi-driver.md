@@ -56,3 +56,21 @@ helm install csi csi-secrets-store-provider-azure/csi-secrets-store-provider-azu
 ---------------------------------------------------------------------------------
 
 ### 2. Tạo Azure Key Vault (Lưu ý quan trọng!: nếu đã có sẵn thì không cần tạo thêm :hankey: )
+
+Chúng ta có thể sử dụng console, hoặc az cli command [az keyvault create](https://learn.microsoft.com/en-us/cli/azure/keyvault#az-keyvault-create.md) để tạo:
+
+```
+az keyvault create -n <new-keyvault-name> -g <resource-group-name> -l <location>
+```
+
+Sử dụng  az keyvault secret set command để tạo một secret trong Key Vault ở trên, với nội dung secret là *ExampleSecretContent*
+
+```
+az keyvault secret set --vault-name <new-keyvault-name> -n <new-secret-name> --value ExampleSecretContent
+```
+
+### 3. Lựa chọn phương pháp định danh để truy cập Azure Key Vault
+
+#### Option 1: Sử dụng Managed Identity
+
+#### Option 2: Sử dụng Service Principal
