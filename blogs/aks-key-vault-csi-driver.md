@@ -1,6 +1,6 @@
 # Truy cập Azure Key Vault từ AKS với Secret Store CSI Driver
 ## Một vài khái niệm
-CSI (Container Storage Interface) là cách thức K8S sử dụng để truy cấp các ổ lưu trữ (dạng block, file,...) từ các nhà cung cấp bên ngoài, ví dụ các nhà cung cấp dịch vụ cloud như Azure hay Google Cloud. Hãy tạm gọi họ ở đây là các provider. Các provider này sẽ phát triển các CSI driver (thường dưới dạng open source) để hệ thống K8S có thể sử dụng để truy cập hệ thống lưu trữ của các provider này. Lấy một ví dụ, với [Azure File CSI driver](https://github.com/kubernetes-sigs/azurefile-csi-driver), bạn có thể mount và truy cập đến 
+CSI (Container Storage Interface) là cách thức K8S sử dụng để truy cập các ổ lưu trữ (dạng block, file,...) từ các nhà cung cấp bên ngoài, ví dụ các nhà cung cấp dịch vụ cloud như Azure hay Google Cloud. Hãy tạm gọi họ ở đây là các provider. Các provider này sẽ phát triển các CSI driver (thường dưới dạng open source) để hệ thống K8S có thể sử dụng để truy cập hệ thống lưu trữ của các provider này. Lấy một ví dụ, với [Azure File CSI driver](https://github.com/kubernetes-sigs/azurefile-csi-driver), bạn có thể mount và truy cập đến 
 Azure File dưới dạng volume trong pod.
 
 Tuy nhiên, trong nhiều trường hợp, thứ ta muốn truy cập không phải là một volume lưu trữ, mà là một số thông tin bảo mật như secret, key hay certificate. Để làm được điều đó, provider cần phát triển CSI driver, cho phép tương tác với nơi lưu trữ bảo mật (thường được gọi là Secret Store), và mount secret/key muốn sử dụng vào pod dưới dạng volume.
@@ -43,3 +43,12 @@ aks-secrets-store-provider-azure-5p4nb   1/1     Running   0          4m21s
 aks-secrets-store-provider-azure-6pqmv   1/1     Running   0          4m24s
 aks-secrets-store-provider-azure-f5qlm   1/1     Running   0          4m25s
 ```
+
+#### Option 2: Sử dùng Helm để cài đặt:
+
+```
+helm repo add csi-secrets-store-provider-azure https://azure.github.io/secrets-store-csi-driver-provider-azure/charts
+helm install csi csi-secrets-store-provider-azure/csi-secrets-store-provider-azure --namespace kube-system
+```
+
+(Tham khảo: [https://azure.github.io/secrets-store-csi-driver-provider-azure/docs/getting-started/installation/](https://azure.github.io/secrets-store-csi-driver-provider-azure/docs/getting-started/installation/))
