@@ -6,6 +6,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 
 
 # The blogs I wrote (in Vietnamese)
+- [Truy cập Azure Key Vault từ AKS với Secret Store CSI Driver](https://lehai2909.github.io/blogs/aks-key-vault-csi-driver.html)
 - [Một vài so sánh về K8S trên Azure (AKS) và Google Cloud (GKE)](https://lehai2909.github.io/blogs/aks-gke-some-point-to-compare.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 1)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 2)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p2.html)
