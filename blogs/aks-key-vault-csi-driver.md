@@ -21,5 +21,25 @@ Secret Store CSI driver chạy dưới dạng daemonset trên mỗi node của K
 ## Các bước để sử dụng Azure Key Vault Provider for Secrets Store CSI driver trong AKS
 ### 1. Cài đặt Azure Key Vault Provider for Secrets Store CSI Driver lên cluster:
 Có 2 option có thể sử dụng ở đây:
-Option 1: enable `azure-keyvault-secrets-provider` add-on bằng az cli:
-`az aks enable-addons --addons azure-keyvault-secrets-provider --name <cluster-name> --resource-group <resource-group>`
+
+#### Option 1: Kích hoạt `azure-keyvault-secrets-provider` add-on bằng az cli:
+
+```az aks enable-addons --addons azure-keyvault-secrets-provider --name <cluster-name> --resource-group <resource-group>```
+
+Sau đó, kiểm tra Azure Key Vault CSI driver đã được cài đặt trên cluster chưa:
+
+```
+kubectl get pods -n kube-system -l 'app in (secrets-store-csi-driver,secrets-store-provider-azure)'
+```
+
+Kết quả sẽ tương tự như sau, nếu việc enable add-on thành công:
+
+```
+NAME                                     READY   STATUS    RESTARTS   AGE
+aks-secrets-store-csi-driver-4vpkj       3/3     Running   2          4m25s
+aks-secrets-store-csi-driver-ctjq6       3/3     Running   2          4m21s
+aks-secrets-store-csi-driver-tlvlq       3/3     Running   2          4m24s
+aks-secrets-store-provider-azure-5p4nb   1/1     Running   0          4m21s
+aks-secrets-store-provider-azure-6pqmv   1/1     Running   0          4m24s
+aks-secrets-store-provider-azure-f5qlm   1/1     Running   0          4m25s
+```
