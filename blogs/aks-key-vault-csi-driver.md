@@ -52,3 +52,7 @@ helm install csi csi-secrets-store-provider-azure/csi-secrets-store-provider-azu
 ```
 
 (Tham khảo: [https://azure.github.io/secrets-store-csi-driver-provider-azure/docs/getting-started/installation/](https://azure.github.io/secrets-store-csi-driver-provider-azure/docs/getting-started/installation/))
+
+---------------------------------------------------------------------------------
+
+### 2. Tạo Azure Key Vault (Lưu ý quan trọng!: nếu đã có sẵn thì không cần tạo thêm :hankey: )
