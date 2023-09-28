@@ -63,7 +63,7 @@ Chúng ta có thể sử dụng console, hoặc az cli command [az keyvault crea
 az keyvault create -n <new-keyvault-name> -g <resource-group-name> -l <location>
 ```
 
-Sử dụng  az keyvault secret set command để tạo một secret trong Key Vault ở trên, với nội dung secret là *ExampleSecretContent*
+Sử dụng [az keyvault secret set](https://learn.microsoft.com/en-us/cli/azure/keyvault#az-keyvault-secret-set.md) command để tạo một secret trong Key Vault ở trên, với nội dung secret là *ExampleSecretContent*
 
 ```
 az keyvault secret set --vault-name <new-keyvault-name> -n <new-secret-name> --value ExampleSecretContent
