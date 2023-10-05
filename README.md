@@ -30,7 +30,7 @@ I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick a
 
 - [Self-serving reader Web application build on AWS](https://gitlab.com/leensea96/devops-cicd-aws)
 - [Simple Web App](https://github.com/lehai2909/Simple-web-AWS-Terraform)
-- [Build a website using S3 and CloudFront]([https://github.com/lehai2909/Simple-web-AWS-Terraform](https://gitlab.com/leensea96/web-app-s3))
+- [Build a website using S3 and CloudFront](https://gitlab.com/leensea96/web-app-s3)
 
 
 # Experience and Skills
