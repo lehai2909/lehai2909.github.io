@@ -25,3 +25,5 @@ Bên dưới là tổng quan về 4 chiến lược DR, được sắp xếp t�
 ![image](https://github.com/lehai2909/lehai2909.github.io/assets/49013652/8397269d-ba96-4b75-9d70-dcffd6d05919)
 
 _(Nguồn: Disaster Recovery of Workloads on AWS: Recovery in the Cloud - AWS Whitepaper)_
+
+_(còn tiếp phần 2...)_
