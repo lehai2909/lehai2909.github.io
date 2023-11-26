@@ -2,10 +2,11 @@
 
 # About me
 
-I'm Hai Le. Currently I'm Cloud Engineer based in Ha Noi, Viet Nam. As a quick and self-taught learner, my interests expand from Data Science to AI and Nuclear Physics 	:bomb:
+I'm Hai Le. Currently I'm SRE\Cloud Engineer based in Ha Noi, Viet Nam. As a quick and self-taught learner, my main focus is on Cloud Computing, and on how can we make life easier with technology, not making it more complicated 	:bomb:
 
 
 # The blogs I wrote (in Vietnamese)
+- [Phục hồi thảm họa trên AWS](https://lehai2909.github.io/blogs/disaster-recovery-aws.html)
 - [Truy cập Azure Key Vault từ AKS với Secret Store CSI Driver](https://lehai2909.github.io/blogs/aks-key-vault-csi-driver.html)
 - [Một vài so sánh về K8S trên Azure (AKS) và Google Cloud (GKE)](https://lehai2909.github.io/blogs/aks-gke-some-point-to-compare.html)
 - [Giới thiệu về Microservice - Kubernetes - Docker (phần 1)](https://lehai2909.github.io/blogs/microservice-kubernetes-docker-p1.html)
