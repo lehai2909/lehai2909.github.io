@@ -4,8 +4,8 @@
 
 Chứng chỉ SAP-CO2 theo mình đánh giá  là một chứng chỉ tương đối khó. Bài thi đánh giá khả năng đưa ra giải pháp tối ưu khi thiết kế hệ thống trên AWS, và nội dung 65 câu hỏi trong bài thi yêu cầu bạn có một hiểu biết tương đối rộng về các dịch vụ trên AWS, và cần đưa ra một giải pháp tối ưu, hiệu quả và tiết kiệm đối với một vấn đề cụ thể. Sau đây là 4 domain mà bạn sẽ cần tập trung (Được lấy từ [exam guide](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf)):
 
-• Domain 1: Design Solutions for Organizational Complexity (26% of scored
-content)
+• [Domain 1: Design Solutions for Organizational Complexity (26% of scored
+content)](#D1)
 
 • Domain 2: Design for New Solutions (29% of scored content)
 
@@ -19,29 +19,18 @@ content)
 
 **Lưu ý**: những thông tin trong bài này chỉ mang tính chất tham khảo, tác giả không chịu trách nhiệm cho bất kỳ việc thi trượt nào 👀 
 
-## Domain 1: Design Solutions for Organizational Complexity
+## Domain 1: Design Solutions for Organizational Complexity {#d1}
 
 ### Những phần cần lưu ý:
 
+1. Thiết kế kết nối mạng: 
+- Một tổ chức lớn có hạ tầng chạy trên AWS có thể được thiết kế theo nhiều cách khác nhau: trên một hoặc nhiều VPC, trên nhiều VPC trên các region khác nhau, và đôi khi là kết nối từ cloud xuống hạ tầng chạy trên on-prem. Bạn cần nắm vững các khái niệm về network (VPC, subnet, route table,...), các dịch vụ giúp kết nối các vpc (hay giữa vpc và on-prem), các vấn đề về DNS, routing khi kết nối các mạng khác nhau thông qua gateway, và các dịch vụ giúp monitor/troubleshoot khi không thể kết nối...
+- Các dịch vụ cần lưu ý:
+  -  [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html), VPC peering, Transit Gateway
+  -  [Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
+  -  [VPN](https://docs.aws.amazon.com/vpn/latest/s2svpn/how_it_works.html)
+  -  []()
+  -  []()
+  -  []()
+  -  []()
 
-
-#### VPC Peering
-
-![image](https://user-images.githubusercontent.com/49013652/210194283-00684296-937e-4e71-a5b3-ef9ce0f1dc54.png)
-
-VPC Peering cho phép việc kết nối giữa các VPC sử dụng địa chỉ IP private
-VPC Peering có thể đuợc thiết lập giữa VPC trong một account, hoặc của 2 account khác nhau, hỗ trơ inter-region peering
-VPC Peering là kết nối 1-1, nên khi môi trường mở rộng và có thêm nhiều VPC mới, VPC peering sẽ không scale tốt
-
-
-#### Transit Gateway
-
-Transit Gateway là một lựa chọn tốt hơn để kết nối nhiều VPC theo kiến trúc hub-và-spoke. Mỗi spoke VPC chỉ cần kết nối đến Transit Gateway để có thể kết nối đến các VPC khác
-
-![image](https://user-images.githubusercontent.com/49013652/210195517-74e6d961-8637-46c7-bbeb-23721c9a9c2d.png)
-
-Transit Gateway cũng có thể được peer với nhau để kết nối VPC kiểu inter-region:
-
-![image](https://user-images.githubusercontent.com/49013652/210195565-f1e33834-4811-450b-9720-c0758d26018d.png)
-
-#### Private Link
