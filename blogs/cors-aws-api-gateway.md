@@ -10,7 +10,7 @@ Cùng tìm hiểu về **Cross-origin resource sharing (CORS)**, và cách cấu
 
 Trong mô hình client-server, CORS là cơ chế dựa trên HTTP header, cho phép các server có thể cho phép hoặc ngăn chặn client từ một domain khác có thể truy cập đến tài nguyên trên server của mình hay không. Nói cách khác, CORS là cách để một client (ví dụ như một web app, được host trên một domain) có thể tương tác với tài nguyên trên một domain khác.
 
-Một hình ảnh rất dễ hiểu đuợc lấy từ MDN mozilla web:
+Một hình ảnh rất dễ hiểu đuợc lấy từ [MDN mozilla web](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS):
 
 ![image](https://github.com/lehai2909/lehai2909.github.io/assets/49013652/f69952a0-baeb-4594-8ca9-e79b7c5d99e7)
 
