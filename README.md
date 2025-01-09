@@ -6,6 +6,7 @@ I'm Hai Le. Currently I'm SRE\Cloud Engineer based in Ha Noi, Viet Nam. As a qui
 
 
 # The blogs I wrote (in Vietnamese)
+- [Open ID Connect là gì? (Demo trên CI/CD với Github Action)](https://lehai2909.github.io/blogs/openid-connect-aws-github-action.html)
 - [Hành trình học lập trình web 1: CORS là gì?](https://lehai2909.github.io/blogs/cors-aws-api-gateway.html)
 - [Phục hồi thảm họa trên AWS](https://lehai2909.github.io/blogs/disaster-recovery-aws.html)
 - [Truy cập Azure Key Vault từ AKS với Secret Store CSI Driver](https://lehai2909.github.io/blogs/aks-key-vault-csi-driver.html)
