@@ -11,3 +11,8 @@ Ví dụ, pipeline sẽ cần quyền truy cập đến EKS để cập nhật d
 
 
 Để pipeline có được quyền truy cập này, thông thường cách đơn giản nhất là người dùng cần phải cài đặt các credential (access keys) trong môi trường CICD. Việc này thường được thực hiện bằng cách lưu access key vào các secret trong CICD pipeline. Điều này khá tương tự giữa các platform như Gitlab CICD, Github Action hay Jenkins.
+
+
+Tuy nhiên, điều này cũng đồng nghĩa với việc người dùng cần phải thực hiện bằng tay việc khởi tạo các access key trên môi trường cloud, cũng như lưu trữ chúng lâu dài trong môi trường CICD.
+
+AWS khuyến khích người dùng không thực hiện việc lưu trữ long-term credential như vậy. Thay vào đó họ khuyến khích người dùng thiết lập ứng dụng của mình sử dụng **OIDC federation** để yêu cầu short-time credential khi cần, và các credential này sẽ tự động hết hạn sau một khoảng thời gian định sẵn. Tham khảo [ở đây](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html)
