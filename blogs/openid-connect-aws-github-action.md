@@ -16,3 +16,6 @@ Ví dụ, pipeline sẽ cần quyền truy cập đến EKS để cập nhật d
 Tuy nhiên, điều này cũng đồng nghĩa với việc người dùng cần phải thực hiện bằng tay việc khởi tạo các access key trên môi trường cloud, cũng như lưu trữ chúng lâu dài trong môi trường CICD.
 
 AWS khuyến khích người dùng không thực hiện việc lưu trữ long-term credential như vậy. Thay vào đó họ khuyến khích người dùng thiết lập ứng dụng của mình sử dụng **OIDC federation** để yêu cầu short-time credential khi cần, và các credential này sẽ tự động hết hạn sau một khoảng thời gian định sẵn. Tham khảo [ở đây](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html)
+
+
+Để hiểu việc này được thực hiện như thế nào, trước tiên chúng ta cần hiểu về 2 khái niệm: **OAuth 2.0** và **OpenID Connect**.
