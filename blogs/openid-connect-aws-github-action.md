@@ -25,12 +25,14 @@ AWS khuyến khích người dùng không thực hiện việc lưu trữ long-t
 
 OAuth 2.0 là một cơ chế xác thực (authorization framework) cho phép một ứng dụng bên ngoài có quyền truy cập vào các tài nguyên dưới danh nghĩa của bạn, mà bạn không cần phải cung cấp cho ứng dụng này những thông tin xác thực (credential) nhạy cảm, như username và password.
 
-Hãy thử lấy một ví dụ: Bạn đang sử dụng một ứng dụng web (ở đây gọi là client). Để sử dụng các tính năng chỉ dành cho thành viên, trang web sẽ yêu cầu bạn phải đăng nhập. Bạn có thể đăng ký (Sign-up) rồi điền các thông tin username(email) và password để đăng nhập, hoặc, trang web này sẽ cung cấp tính năng **Login with Google** hoặc **Login with Github** để bạn có thể đăng nhập vào trang web sử dụng accout Google hoặc Github của bạn.
-
-Trong trường hợp này, *chúng ta đang cho phép ứng dụng bên ngoài truy cập vào các thông tin tài khoản (như email Google, ảnh đại diện,...) mà không hề cung cấp các thông tin xác thực (email/password) dùng để đăng nhập cho ứng dụng này*
-
-Vậy điều này diễn ra như thế nào? Làm thế nào một người không biết email/password của tôi lại có thể truy cập (một cách hạn chế) vào các thông tin tài khoản của tôi :anguished:
-
+Hãy thử lấy một ví dụ: Bạn đang sử dụng một ứng dụng web (ở đây gọi là client). Để sử dụng các tính năng chỉ dành cho thành viên, trang web sẽ yêu cầu bạn phải đăng nhập. Bạn có thể đăng ký (Sign-up) rồi điền các thông tin username(email) và password để đăng nhập, hoặc, trang web này sẽ cung cấp tính năng **Login with Google** hoặc **Login with Github** để bạn có thể đăng nhập vào trang web sử dụng accout Google hoặc Github của bạn:
 
 ![image](https://github.com/user-attachments/assets/491d2dad-6b4e-4fc2-80a9-c6ebfaf4cbef)
+
+Trong trường hợp này, *chúng ta đang cho phép ứng dụng bên ngoài truy cập vào các thông tin tài khoản (như email Google, ảnh đại diện,...) mà không hề cung cấp cho ứng dụng các thông tin xác thực (email/password) dùng để đăng nhập vào tải khoản cá nhân*
+
+Vậy điều này diễn ra như thế nào? Làm thế nào một ứng dụng không biết email/password của tôi lại có thể truy cập (một cách hạn chế) vào các thông tin tài khoản của tôi :anguished:
+
+
+
 
