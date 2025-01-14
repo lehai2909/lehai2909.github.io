@@ -34,6 +34,9 @@ Trong trường hợp này, *chúng ta đang cho phép ứng dụng bên ngoài 
 Vậy điều này diễn ra như thế nào? Làm thế nào một ứng dụng không biết email/password của tôi lại có thể truy cập (một cách hạn chế) vào các thông tin tài khoản của tôi :anguished:?
 
 
+![oauth2 drawio](https://github.com/user-attachments/assets/eae345ff-d98d-4484-bf17-1bc7d838256f)
+
+
 
 ![image](https://github.com/user-attachments/assets/da408497-fa39-4177-a645-9bc7bcd47e09)
 
