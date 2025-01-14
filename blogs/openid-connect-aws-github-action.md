@@ -29,10 +29,15 @@ Hãy thử lấy một ví dụ: Bạn đang sử dụng một ứng dụng web 
 
 ![image](https://github.com/user-attachments/assets/491d2dad-6b4e-4fc2-80a9-c6ebfaf4cbef)
 
-Trong trường hợp này, *chúng ta đang cho phép ứng dụng bên ngoài truy cập vào các thông tin tài khoản (như email Google, ảnh đại diện,...) mà không hề cung cấp cho ứng dụng các thông tin xác thực (email/password) dùng để đăng nhập vào tải khoản cá nhân*
+Trong trường hợp này, *chúng ta đang cho phép ứng dụng bên ngoài truy cập vào các thông tin tài khoản (như email Google, ảnh đại diện,...) mà không hề cung cấp cho ứng dụng các thông tin xác thực (email/password) dùng để đăng nhập vào tài khoản cá nhân*
 
-Vậy điều này diễn ra như thế nào? Làm thế nào một ứng dụng không biết email/password của tôi lại có thể truy cập (một cách hạn chế) vào các thông tin tài khoản của tôi :anguished:
+Vậy điều này diễn ra như thế nào? Làm thế nào một ứng dụng không biết email/password của tôi lại có thể truy cập (một cách hạn chế) vào các thông tin tài khoản của tôi :anguished:?
 
 
+
+![image](https://github.com/user-attachments/assets/da408497-fa39-4177-a645-9bc7bcd47e09)
+
+
+![image](https://github.com/user-attachments/assets/7b79913b-a6c6-465c-85a9-89217591a6e4)
 
 
