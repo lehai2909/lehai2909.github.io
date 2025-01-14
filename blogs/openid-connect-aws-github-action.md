@@ -41,3 +41,6 @@ Vậy điều này diễn ra như thế nào? Làm thế nào một ứng dụng
 ![image](https://github.com/user-attachments/assets/7b79913b-a6c6-465c-85a9-89217591a6e4)
 
 
+![image](https://github.com/user-attachments/assets/9620797b-7475-42f0-9cf6-f863f165a7ab)
+
+
