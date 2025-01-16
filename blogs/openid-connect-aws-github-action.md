@@ -29,21 +29,35 @@ Hãy thử lấy một ví dụ: Bạn đang sử dụng một ứng dụng web 
 
 ![image](https://github.com/user-attachments/assets/491d2dad-6b4e-4fc2-80a9-c6ebfaf4cbef)
 
-Trong trường hợp này, *chúng ta đang cho phép ứng dụng bên ngoài truy cập vào các thông tin tài khoản (như email Google, ảnh đại diện,...) mà không hề cung cấp cho ứng dụng các thông tin xác thực (email/password) dùng để đăng nhập vào tài khoản cá nhân*
+Trong trường hợp sau này, *chúng ta đang sử dụng cơ chế OAuth 2.0 cho phép ứng dụng bên ngoài truy cập vào các thông tin tài khoản (như email Google, ảnh đại diện,...) mà không hề cung cấp cho ứng dụng các thông tin xác thực (email/password) dùng để đăng nhập vào tài khoản cá nhân*
 
 Vậy điều này diễn ra như thế nào? Làm thế nào một ứng dụng không biết email/password của tôi lại có thể truy cập (một cách hạn chế) vào các thông tin tài khoản của tôi :anguished:?
 
+Hãy cùng xem vào qúa trình xác thực OAuth 2.0 (OAuth 2.0 authorization flow) điển hình diễn ra như thế nào, thông qua minh hoạ cho dưới đây nhé (chúng ta vẫn tiếp tục sử dụng ví dụ trang web ở trên):
 
 ![oauth2 drawio](https://github.com/user-attachments/assets/eae345ff-d98d-4484-bf17-1bc7d838256f)
 
+1. Người dùng yêu cầu đăng nhập vào trang web (client) sử dụng tính năng **Login with Google**
 
 
+
+2. Trang web (client) sẽ điều hướng người dùng đến Authorization Server của Google, cùng với các thông tin khác như client id, scope,...
+
+
+
+3. Google hiện cửa sổ popup yêu cầu người dùng xác thực tài khoản, đồng thời chấp thuận với các quyền truy cập mà ứng dụng web (client) có trên tài khoản của bạn (thường được gọi là user consent) ( các hình minh hoạ bên dưới)
+
+*Người dùng đăng nhập*:
 ![image](https://github.com/user-attachments/assets/da408497-fa39-4177-a645-9bc7bcd47e09)
 
-
+*Người dùng cấp quyền*:
 ![image](https://github.com/user-attachments/assets/7b79913b-a6c6-465c-85a9-89217591a6e4)
 
 
 ![image](https://github.com/user-attachments/assets/9620797b-7475-42f0-9cf6-f863f165a7ab)
 
 
+4. Client tiếp tục quá trình với việc yêu cầu **Access Token** từ Google Authorization Server. Nếu quá trình thành công, Authorization Server sẽ trả về cho client Access token cùng với một danh sách giới hạn truy cập (scope of access) mà token này có.
+
+5. + 6. Client sử dụng Access token để truy cập đến các resource của người dùng (như tên, email, ảnh đại diện,...) trên Google Resource Server.
+ 
