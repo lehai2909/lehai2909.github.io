@@ -59,5 +59,5 @@ Hãy cùng xem vào qúa trình xác thực OAuth 2.0 (OAuth 2.0 authorization f
 
 4. Client tiếp tục quá trình với việc yêu cầu **Access Token** từ Google Authorization Server. Nếu quá trình thành công, Authorization Server sẽ trả về cho client Access token cùng với một danh sách giới hạn truy cập (scope of access) mà token này có.
 
-5. + 6. Client sử dụng Access token để truy cập đến các resource của người dùng (như tên, email, ảnh đại diện,...) trên Google Resource Server.
+5+6. Client sử dụng Access token để truy cập đến các resource của người dùng (như tên, email, ảnh đại diện,...) trên Google Resource Server.
  
