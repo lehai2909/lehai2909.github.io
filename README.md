@@ -2,7 +2,7 @@
 
 # About me
 
-I'm Hai Le. Currently I'm SRE\Cloud Engineer (temporarily) based in Seoul, Korea. As a quick and self-taught learner, my main focus is on Cloud Computing, and on how can we make life easier with technology, not making it more complicated 	:bomb:
+I'm Hai Le. Currently I'm SRE\Cloud Engineer based (temporarily) in Seoul, Korea. As a quick and self-taught learner, my main focus is on Cloud Computing, and on how can we make life easier with technology, not making it more complicated 	:bomb:
 
 
 # The blogs I wrote (in Vietnamese)
