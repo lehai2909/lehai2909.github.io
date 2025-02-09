@@ -56,8 +56,7 @@ Hãy cùng xem vào qúa trình xác thực OAuth 2.0 (OAuth 2.0 authorization f
 
 ![image](https://github.com/user-attachments/assets/9620797b-7475-42f0-9cf6-f863f165a7ab)
 
-
-5. Client tiếp tục quá trình với việc yêu cầu **Access Token** từ Google Authorization Server. Nếu quá trình thành công, Authorization Server sẽ trả về cho client Access token cùng với một danh sách giới hạn truy cập (scope of access) mà token này có.
+Client tiếp tục quá trình với việc yêu cầu **Access Token** từ Google Authorization Server. Nếu quá trình thành công, Authorization Server sẽ trả về cho client Access token cùng với một danh sách giới hạn truy cập (scope of access) mà token này có.
 
 5+6. Client sử dụng Access token để truy cập đến các resource của người dùng (như tên, email, ảnh đại diện,...) trên Google Resource Server.
  
